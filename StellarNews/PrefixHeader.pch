@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  StellarNews
+//
+//  Created by Carlos Villavicencio on 04/11/15.
+//  Copyright (c) 2015 MindsLab. All rights reserved.
+//
+
+#ifndef StellarNews_PrefixHeader_pch
+#define StellarNews_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

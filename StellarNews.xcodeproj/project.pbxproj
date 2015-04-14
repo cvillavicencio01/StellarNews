@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		957BFF671ADD62AD00417FD9 /* BeXRBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957BFF661ADD62AD00417FD9 /* BeXRBTableViewController.m */; };
+		957BFF6A1ADD62C900417FD9 /* BeXRBDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957BFF691ADD62C900417FD9 /* BeXRBDetailsViewController.m */; };
+		95BC58961AD9E62200EDD4BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BC58951AD9E62200EDD4BF /* main.m */; };
+		95BC58991AD9E62200EDD4BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BC58981AD9E62200EDD4BF /* AppDelegate.m */; };
+		95BC589F1AD9E62200EDD4BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BC589D1AD9E62200EDD4BF /* Main.storyboard */; };
+		95BC58A41AD9E62200EDD4BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95BC58A21AD9E62200EDD4BF /* LaunchScreen.xib */; };
+		95BC58B01AD9E62200EDD4BF /* StellarNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BC58AF1AD9E62200EDD4BF /* StellarNewsTests.m */; };
+		95E188CE1ADAFC6100ACB912 /* PreferencesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E188CD1ADAFC6100ACB912 /* PreferencesTableViewController.m */; };
+		95E188D21ADB676D00ACB912 /* CatalinaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E188D11ADB676D00ACB912 /* CatalinaTableViewController.m */; };
+		95E188D51ADB6BBE00ACB912 /* CatalinaDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E188D41ADB6BBE00ACB912 /* CatalinaDetailsViewController.m */; };
+		95E5D17B1ADC2C7600207C4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E5D17A1ADC2C7600207C4D /* Images.xcassets */; };
+		95E5D17E1ADC43DD00207C4D /* SwiftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E5D17D1ADC43DD00207C4D /* SwiftTableViewController.m */; };
+		95E5D1811ADC4B1900207C4D /* SwiftDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E5D1801ADC4B1900207C4D /* SwiftDetailsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95BC58AA1AD9E62200EDD4BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95BC58881AD9E62200EDD4BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95BC588F1AD9E62200EDD4BF;
+			remoteInfo = StellarNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		957BFF651ADD62AD00417FD9 /* BeXRBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeXRBTableViewController.h; sourceTree = "<group>"; };
+		957BFF661ADD62AD00417FD9 /* BeXRBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeXRBTableViewController.m; sourceTree = "<group>"; };
+		957BFF681ADD62C900417FD9 /* BeXRBDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeXRBDetailsViewController.h; sourceTree = "<group>"; };
+		957BFF691ADD62C900417FD9 /* BeXRBDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeXRBDetailsViewController.m; sourceTree = "<group>"; };
+		95BC58901AD9E62200EDD4BF /* StellarNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StellarNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BC58941AD9E62200EDD4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BC58951AD9E62200EDD4BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95BC58971AD9E62200EDD4BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95BC58981AD9E62200EDD4BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95BC589E1AD9E62200EDD4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95BC58A31AD9E62200EDD4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		95BC58A91AD9E62200EDD4BF /* StellarNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StellarNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95BC58AE1AD9E62200EDD4BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95BC58AF1AD9E62200EDD4BF /* StellarNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StellarNewsTests.m; sourceTree = "<group>"; };
+		95BC58B91AD9E66100EDD4BF /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		95BC58BA1ADA00F200EDD4BF /* StellarNews.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = StellarNews.entitlements; sourceTree = "<group>"; };
+		95E188CC1ADAFC6100ACB912 /* PreferencesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesTableViewController.h; sourceTree = "<group>"; };
+		95E188CD1ADAFC6100ACB912 /* PreferencesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesTableViewController.m; sourceTree = "<group>"; };
+		95E188D01ADB676D00ACB912 /* CatalinaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalinaTableViewController.h; sourceTree = "<group>"; };
+		95E188D11ADB676D00ACB912 /* CatalinaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalinaTableViewController.m; sourceTree = "<group>"; };
+		95E188D31ADB6BBE00ACB912 /* CatalinaDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalinaDetailsViewController.h; sourceTree = "<group>"; };
+		95E188D41ADB6BBE00ACB912 /* CatalinaDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalinaDetailsViewController.m; sourceTree = "<group>"; };
+		95E5D17A1ADC2C7600207C4D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		95E5D17C1ADC43DD00207C4D /* SwiftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftTableViewController.h; sourceTree = "<group>"; };
+		95E5D17D1ADC43DD00207C4D /* SwiftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftTableViewController.m; sourceTree = "<group>"; };
+		95E5D17F1ADC4B1900207C4D /* SwiftDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftDetailsViewController.h; sourceTree = "<group>"; };
+		95E5D1801ADC4B1900207C4D /* SwiftDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftDetailsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95BC588D1AD9E62200EDD4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BC58A61AD9E62200EDD4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95BC58871AD9E62200EDD4BF = {
+			isa = PBXGroup;
+			children = (
+				95BC58921AD9E62200EDD4BF /* StellarNews */,
+				95BC58AC1AD9E62200EDD4BF /* StellarNewsTests */,
+				95BC58911AD9E62200EDD4BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95BC58911AD9E62200EDD4BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95BC58901AD9E62200EDD4BF /* StellarNews.app */,
+				95BC58A91AD9E62200EDD4BF /* StellarNewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95BC58921AD9E62200EDD4BF /* StellarNews */ = {
+			isa = PBXGroup;
+			children = (
+				95E5D17A1ADC2C7600207C4D /* Images.xcassets */,
+				95BC58BA1ADA00F200EDD4BF /* StellarNews.entitlements */,
+				95BC58971AD9E62200EDD4BF /* AppDelegate.h */,
+				95BC58981AD9E62200EDD4BF /* AppDelegate.m */,
+				95BC589D1AD9E62200EDD4BF /* Main.storyboard */,
+				95BC58A21AD9E62200EDD4BF /* LaunchScreen.xib */,
+				95BC58931AD9E62200EDD4BF /* Supporting Files */,
+				95E188CC1ADAFC6100ACB912 /* PreferencesTableViewController.h */,
+				95E188CD1ADAFC6100ACB912 /* PreferencesTableViewController.m */,
+				95E188D01ADB676D00ACB912 /* CatalinaTableViewController.h */,
+				95E188D11ADB676D00ACB912 /* CatalinaTableViewController.m */,
+				95E188D31ADB6BBE00ACB912 /* CatalinaDetailsViewController.h */,
+				95E188D41ADB6BBE00ACB912 /* CatalinaDetailsViewController.m */,
+				95E5D17C1ADC43DD00207C4D /* SwiftTableViewController.h */,
+				95E5D17D1ADC43DD00207C4D /* SwiftTableViewController.m */,
+				95E5D17F1ADC4B1900207C4D /* SwiftDetailsViewController.h */,
+				95E5D1801ADC4B1900207C4D /* SwiftDetailsViewController.m */,
+				957BFF651ADD62AD00417FD9 /* BeXRBTableViewController.h */,
+				957BFF661ADD62AD00417FD9 /* BeXRBTableViewController.m */,
+				957BFF681ADD62C900417FD9 /* BeXRBDetailsViewController.h */,
+				957BFF691ADD62C900417FD9 /* BeXRBDetailsViewController.m */,
+			);
+			path = StellarNews;
+			sourceTree = "<group>";
+		};
+		95BC58931AD9E62200EDD4BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95BC58B91AD9E66100EDD4BF /* PrefixHeader.pch */,
+				95BC58941AD9E62200EDD4BF /* Info.plist */,
+				95BC58951AD9E62200EDD4BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95BC58AC1AD9E62200EDD4BF /* StellarNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				95BC58AF1AD9E62200EDD4BF /* StellarNewsTests.m */,
+				95BC58AD1AD9E62200EDD4BF /* Supporting Files */,
+			);
+			path = StellarNewsTests;
+			sourceTree = "<group>";
+		};
+		95BC58AD1AD9E62200EDD4BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95BC58AE1AD9E62200EDD4BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95BC588F1AD9E62200EDD4BF /* StellarNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BC58B31AD9E62200EDD4BF /* Build configuration list for PBXNativeTarget "StellarNews" */;
+			buildPhases = (
+				95BC588C1AD9E62200EDD4BF /* Sources */,
+				95BC588D1AD9E62200EDD4BF /* Frameworks */,
+				95BC588E1AD9E62200EDD4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StellarNews;
+			productName = StellarNews;
+			productReference = 95BC58901AD9E62200EDD4BF /* StellarNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95BC58A81AD9E62200EDD4BF /* StellarNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95BC58B61AD9E62200EDD4BF /* Build configuration list for PBXNativeTarget "StellarNewsTests" */;
+			buildPhases = (
+				95BC58A51AD9E62200EDD4BF /* Sources */,
+				95BC58A61AD9E62200EDD4BF /* Frameworks */,
+				95BC58A71AD9E62200EDD4BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95BC58AB1AD9E62200EDD4BF /* PBXTargetDependency */,
+			);
+			name = StellarNewsTests;
+			productName = StellarNewsTests;
+			productReference = 95BC58A91AD9E62200EDD4BF /* StellarNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95BC58881AD9E62200EDD4BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = MindsLab;
+				TargetAttributes = {
+					95BC588F1AD9E62200EDD4BF = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = W2V774VD96;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					95BC58A81AD9E62200EDD4BF = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = W2V774VD96;
+						TestTargetID = 95BC588F1AD9E62200EDD4BF;
+					};
+				};
+			};
+			buildConfigurationList = 95BC588B1AD9E62200EDD4BF /* Build configuration list for PBXProject "StellarNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95BC58871AD9E62200EDD4BF;
+			productRefGroup = 95BC58911AD9E62200EDD4BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95BC588F1AD9E62200EDD4BF /* StellarNews */,
+				95BC58A81AD9E62200EDD4BF /* StellarNewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95BC588E1AD9E62200EDD4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E5D17B1ADC2C7600207C4D /* Images.xcassets in Resources */,
+				95BC589F1AD9E62200EDD4BF /* Main.storyboard in Resources */,
+				95BC58A41AD9E62200EDD4BF /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BC58A71AD9E62200EDD4BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95BC588C1AD9E62200EDD4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E188CE1ADAFC6100ACB912 /* PreferencesTableViewController.m in Sources */,
+				95E5D1811ADC4B1900207C4D /* SwiftDetailsViewController.m in Sources */,
+				95BC58991AD9E62200EDD4BF /* AppDelegate.m in Sources */,
+				95BC58961AD9E62200EDD4BF /* main.m in Sources */,
+				95E188D51ADB6BBE00ACB912 /* CatalinaDetailsViewController.m in Sources */,
+				957BFF6A1ADD62C900417FD9 /* BeXRBDetailsViewController.m in Sources */,
+				95E188D21ADB676D00ACB912 /* CatalinaTableViewController.m in Sources */,
+				95E5D17E1ADC43DD00207C4D /* SwiftTableViewController.m in Sources */,
+				957BFF671ADD62AD00417FD9 /* BeXRBTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95BC58A51AD9E62200EDD4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BC58B01AD9E62200EDD4BF /* StellarNewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95BC58AB1AD9E62200EDD4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95BC588F1AD9E62200EDD4BF /* StellarNews */;
+			targetProxy = 95BC58AA1AD9E62200EDD4BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95BC589D1AD9E62200EDD4BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95BC589E1AD9E62200EDD4BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95BC58A21AD9E62200EDD4BF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95BC58A31AD9E62200EDD4BF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95BC58B11AD9E62200EDD4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Carlos Villavicencio (FC6WK25KP9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Carlos Villavicencio (FC6WK25KP9)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95BC58B21AD9E62200EDD4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: MindsLab S.A. (W2V774VD96)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: MindsLab S.A. (W2V774VD96)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95BC58B41AD9E62200EDD4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = StellarNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4f146a84-03d1-4624-acbc-07c55b6c8821";
+			};
+			name = Debug;
+		};
+		95BC58B51AD9E62200EDD4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = StellarNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4f146a84-03d1-4624-acbc-07c55b6c8821";
+			};
+			name = Release;
+		};
+		95BC58B71AD9E62200EDD4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StellarNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StellarNews.app/StellarNews";
+			};
+			name = Debug;
+		};
+		95BC58B81AD9E62200EDD4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StellarNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StellarNews.app/StellarNews";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95BC588B1AD9E62200EDD4BF /* Build configuration list for PBXProject "StellarNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BC58B11AD9E62200EDD4BF /* Debug */,
+				95BC58B21AD9E62200EDD4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95BC58B31AD9E62200EDD4BF /* Build configuration list for PBXNativeTarget "StellarNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BC58B41AD9E62200EDD4BF /* Debug */,
+				95BC58B51AD9E62200EDD4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95BC58B61AD9E62200EDD4BF /* Build configuration list for PBXNativeTarget "StellarNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95BC58B71AD9E62200EDD4BF /* Debug */,
+				95BC58B81AD9E62200EDD4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95BC58881AD9E62200EDD4BF /* Project object */;
+}
